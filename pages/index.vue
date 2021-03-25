@@ -33,7 +33,7 @@ export default {
 
       callapi() {
         const inputdata = JSON.stringify({"input": document.querySelector('#description').value});
-        fetch("http://34.67.24.161:48932/", {
+        fetch("http://35.184.143.105:48932/", {
           method: 'POST',
           body: inputdata
         })
